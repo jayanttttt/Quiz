@@ -11,7 +11,7 @@ const Question3 = (props) => {
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])
-    const [selected, setSelected] = useState();
+    const [selected, setSelected] = useState(null);
 
     return (
         <div style={{
